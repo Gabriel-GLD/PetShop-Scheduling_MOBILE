@@ -8,3 +8,7 @@ export default function Buttons() {
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    
+})

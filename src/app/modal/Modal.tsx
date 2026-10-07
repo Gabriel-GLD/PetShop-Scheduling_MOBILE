@@ -7,3 +7,7 @@ export default function Modal() {
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    
+})

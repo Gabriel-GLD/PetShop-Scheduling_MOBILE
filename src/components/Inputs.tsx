@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native'
 
-export default function Cards() {
+export default function Inputs() {
     return (
         <View>
 
@@ -8,4 +8,6 @@ export default function Cards() {
     )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    
+})
