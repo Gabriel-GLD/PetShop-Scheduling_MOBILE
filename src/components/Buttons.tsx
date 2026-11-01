@@ -1,14 +1,27 @@
-import { StyleSheet, View } from 'react-native'
+import { StyleSheet, TouchableOpacity, Text } from 'react-native'
 
-export default function Buttons() {
+type ButtonsProps = {
+    nameButton: string;
+}
+
+export default function Buttons({nameButton}: {nameButton: string}) {
     return (
-        <View>
-
-
-        </View>
+        <TouchableOpacity style={styles.botao}>
+            <Text style={styles.texto}>{nameButton}</Text>
+        </TouchableOpacity>
     )
 }
 
 const styles = StyleSheet.create({
-    
+
+  botao: {
+        backgroundColor: 'blue',
+        padding: 10,
+        borderRadius: 8,
+        alignItems: 'center',
+    },
+    texto: {
+        color: 'white',
+    },
+
 })

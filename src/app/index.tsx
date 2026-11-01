@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
+import Layout from '../components/Layout'
 
 export default function Index() {
     return (
         <View style={styles.container}>
 
-        <Text style= {styles.texto}> Hello word</Text>
-
+            <Layout />
+            
         </View>
     )
 }
